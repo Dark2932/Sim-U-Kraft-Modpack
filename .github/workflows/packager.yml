@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run runner/build.sh
-        run: bash runner/build.sh
+      - name: run
+        run: bash packager.sh
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2
