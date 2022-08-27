@@ -4,6 +4,6 @@
 [ "${PROJECT_DIR}" != "${PWD}" ] && cd "${PROJECT_DIR}"
 
 mkdir artifacts
-mv overrides artifacts
+mv .minecraft artifacts/overrides
 mv manifest.json artifacts
 mv modlist.html artifacts
