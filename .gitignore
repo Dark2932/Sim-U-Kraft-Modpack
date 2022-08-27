@@ -9,10 +9,16 @@
 !/.minecraft/oresources/
 !/.minecraft/resources/
 
+#blacklist
+.minecraft/resources/suk2
+
 #config
 !.minecraft/config/dsurround/
+!ProjectTEP/.minecraft/config/fancymenu/
 !.minecraft/config/itemzoom.cfg
 !.minecraft/config/pickupnotifier.cfg
+!.minecraft/config/tips.cfg
+!.minecraft/config/toastcontrol.cfg
 
 #other
 !manifest.json
