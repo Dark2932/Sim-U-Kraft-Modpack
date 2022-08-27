@@ -2,20 +2,20 @@
 /*
 !.gitignore
 !README.md
-!overrides/
-overrides/*
-!overrides/config/
-overrides/config/*
-!/overrides/oresources/
-!/overrides/resources/
+!.minecraft/
+.minecraft/*
+!.minecraft/config/
+.minecraft/config/*
+!/.minecraft/oresources/
+!/.minecraft/resources/
 
 #config
-!overrides/config/dsurround/
-!overrides/config/itemzoom.cfg
-!overrides/config/pickupnotifier.cfg
+!.minecraft/config/dsurround/
+!.minecraft/config/itemzoom.cfg
+!.minecraft/config/pickupnotifier.cfg
 
 #other
 !manifest.json
 !modlist.html
 !packager.sh
-!overrides/Title.txt
+!.minecraft/Title.txt
