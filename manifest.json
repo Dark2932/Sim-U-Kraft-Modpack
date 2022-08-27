@@ -11,7 +11,8 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Sim-U-Kraft Modpack",
-  "author": "",
+  "author": "Dark2932",
+  "version": 1.0.0,
   "files": [
     {
       "projectID": 408853,
