@@ -17,4 +17,5 @@ overrides/config/*
 #other
 !manifest.json
 !modlist.html
+!packager.sh
 !overrides/Title.txt
