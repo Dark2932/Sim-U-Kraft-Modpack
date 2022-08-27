@@ -24,4 +24,6 @@
 !manifest.json
 !modlist.html
 !packager.sh
+!.minecraft/options.txt
+!.minecraft/optionsof.txt
 !.minecraft/Title.txt
