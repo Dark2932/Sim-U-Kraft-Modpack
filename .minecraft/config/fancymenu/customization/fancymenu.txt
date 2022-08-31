@@ -1,0 +1,390 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -117
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-right
+  x = -117
+  action = movebutton
+  y = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-right
+  x = -92
+  action = movebutton
+  y = 46
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 80
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-right
+  x = -117
+  action = movebutton
+  y = 46
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-right
+  x = -117
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-right
+  x = -62
+  action = movebutton
+  y = 18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 50
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 113
+  width = 200
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 2b888ff3-0846-4ab3-a71a-c9b23cf3e5b21661592965026
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 115
+  action = deep_customization_element:title_screen_branding
+  actionid = 6ff0f63f-cf4f-481a-8e5e-48c0f019562e1661592965026
+  y = 199
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 311
+  width = 168
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = f3bd0d67-cbd2-41bf-8358-3904b77397b61661592965026
+  y = 231
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = e5884a11-330c-4b84-913a-848e1aa3aa981661592965026
+  y = 162
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 76
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 84283eb9-831b-497c-a448-62e577c592371661592965026
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 4a7b9c05-72eb-4ac4-8349-4b13101d8c151661592965026
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  name = background
+  x = 0
+  width = %guiwidth%
+  actionid = de921c7f-e39c-408a-9edb-09fbc74b74061661598323222
+  action = addslideshow
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  path = resources/fancymenu/images/info.png
+  orientation = mid-left
+  x = 1
+  width = 281
+  actionid = 836585b9-8bfb-4508-8a64-056ff726a94e1661593276020
+  action = addtexture
+  y = -38
+  height = 100
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboard_press.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\images\afdian.png
+  description = Support author?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboard_enter.wav
+  loopbackgroundanimations = true
+  x = 182
+  width = 36
+  actionid = 307abdf2-8d41-4967-aa91-252a87ff87d91631435630544
+  action = addbutton
+  y = 20
+  backgroundnormal = resources\fancymenu\images\afdian.png
+  value = https://afdian.net/@wheatpaper
+  height = 36
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboard_press.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\images\mcbbs.png
+  description = View the post on MCBBS?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboard_enter.wav
+  loopbackgroundanimations = true
+  x = 8
+  width = 87
+  actionid = da9d6b9a-7726-4b6e-beaa-2c5c490ab84d1631435630544
+  action = addbutton
+  y = 20
+  backgroundnormal = resources\fancymenu\images\mcbbs.png
+  value = https://www.mcbbs.net/thread-1379462-1-1.html
+  height = 35
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboard_press.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\images\curseforge.png
+  description = View the post on CurseForge?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboard_enter.wav
+  loopbackgroundanimations = true
+  x = 120
+  width = 36
+  actionid = da9d6b9a-7726-4b6e-beaa-2c5c490ab84d1631435630544
+  action = addbutton
+  y = 19
+  backgroundnormal = resources\fancymenu\images\curseforge.png
+  value = https://www.curseforge.com/minecraft/modpacks/sim-u-kraft-modpack
+  height = 36
+}
+
+customization {
+  hoversound = resources/fancymenu/sounds/keyboard_press.wav
+  orientation = mid-left
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\images\github.png
+  description = View the code?
+  label = 
+  clicksound = resources/fancymenu/sounds/keyboard_enter.wav
+  loopbackgroundanimations = true
+  x = 242
+  width = 30
+  actionid = b42d218d-fa96-46b3-b2aa-cf20fc345be41631435630545
+  action = addbutton
+  y = 24
+  backgroundnormal = resources\fancymenu\images\github.png
+  value = https://github.com/Dark2932/Sim-U-Kraft-Modpack
+  height = 30
+}
+
+customization {
+  path = resources/fancymenu/images/title_1.png
+  orientation = top-left
+  x = 13
+  width = 256
+  actionid = 14b67792-4047-4b47-b1f8-63e11938f17d1661593441929
+  action = addtexture
+  y = 13
+  height = 47
+}
+
+customization {
+  path = resources/fancymenu/images/title_2.png
+  orientation = top-left
+  x = 85
+  width = 104
+  actionid = 2478f954-1790-4e30-bdcd-3448a3f22b431661593516828
+  action = addtexture
+  y = 59
+  height = 24
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Hello, §e%playername%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 10
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 56bb8062-cc60-4744-b207-44bbcab8589a1661593630834
+  y = 94
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Date&Time: §b%realtimeyear%/%realtimemonth%/%realtimeday% %realtimehour%:%realtimeminute%:%realtimesecond%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 10
+  width = 389
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 816e52d5-8cf6-4856-880c-bfcebf24c80e1661593849022
+  y = 103
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Mod Author: §dAshJack
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 10
+  width = 389
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 7345b16d-ec27-4462-85d1-cce6784670691661594174633
+  y = 112
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Modpack Author: §dDark2932
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 10
+  width = 389
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a0fb328a-5ba6-4874-880c-8924021f5bc01661594273231
+  y = 121
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = §aWelcome to Sim-U-Kraft ！
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 10
+  width = 389
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a771d2ec-a6ca-455a-93d2-85bdae83a9fb1661594278470
+  y = 130
+  alignment = left
+  height = 40
+}
+
